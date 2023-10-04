@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/427.be1097c5.chunk.js","mappings":"gMAAe,SAASA,IACtB,OACE,2BACE,iDAGL,C","sources":["pages/Login/Login.jsx"],"sourcesContent":["export default function Login() {\n  return (\n    <main>\n      <h1> This is Login page</h1>\n    </main>\n  );\n}\n"],"names":["Login"],"sourceRoot":""}
