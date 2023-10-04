@@ -1,5 +1,4 @@
 import styled from '@emotion/styled';
-import { CiUser } from 'react-icons/ci';
 import { HiOutlineLockClosed } from 'react-icons/hi';
 import { HiOutlineMail } from 'react-icons/hi';
 
@@ -20,6 +19,7 @@ export const FormTitleLogIn = styled.span`
   font-size: 30px;
   color: #fff;
   font-weight: ${p => p.theme.fontWeights.bold};
+  line-height: 1.2;
   text-align: center;
   text-transform: uppercase;
 `;
@@ -36,18 +36,6 @@ export const InputWrap = styled.div`
   width: 100%;
   border-bottom: 2px solid rgba(255, 255, 255, 0.24);
   margin-bottom: 30px;
-`;
-
-export const CiUserSVG = styled(CiUser)`
-  position: absolute;
-  top: 7px;
-  left: 0;
-
-  fill: #ffffff;
-  stroke: #ffffff;
-  stroke-width: 1;
-  width: 24px;
-  height: 24px;
 `;
 
 export const OutlineMailSVG = styled(HiOutlineMail)`

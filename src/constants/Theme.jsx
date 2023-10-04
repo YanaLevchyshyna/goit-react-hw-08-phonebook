@@ -1,14 +1,15 @@
 export const theme = {
   colors: {
-    button: '#111',
+    button: '#ffffff',
     buttonHover: '#FFF',
+    input: '#ffffff',
     borderColor: '#1e3c72',
-    primary: '#f6f6f6',
+    primary: '#111111',
     secondary: '#e5e7eb',
     accent: '#4DA0B0',
     placeHolder: '#ffffff',
     label: '#bbbdbf',
-    text: '#80838a',
+    text: '#555',
   },
   space: [0, 2, 4, 5, 8, 16, 32, 64, 128, 256],
 
@@ -26,7 +27,7 @@ export const theme = {
   },
   fontWeights: {
     normal: 400,
-    bold: 700,
+    bold: 600,
   },
   lineHeights: {
     body: 1.5,
@@ -39,7 +40,7 @@ export const theme = {
   radius: {
     none: '0',
     normal: '8px',
-    round: '50%',
+    round: '25px',
   },
   shadows: {
     textShadow: '0 1px 1px #fff',

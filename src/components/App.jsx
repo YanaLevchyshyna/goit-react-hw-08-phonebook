@@ -7,7 +7,7 @@ import { ToastContainer } from 'react-toastify';
 const HomePage = lazy(() => import('pages/Home/Home'));
 const RegisterPage = lazy(() => import('pages/Register/Register'));
 const LoginPage = lazy(() => import('pages/Login/Login'));
-// const ContactsPage = lazy(() => import('../pages/Contacts'));
+const ContactsPage = lazy(() => import('pages/ContactPage/ContactPage'));
 
 export default function App() {
   return (
@@ -17,6 +17,7 @@ export default function App() {
           <Route index element={<HomePage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/logIn" element={<LoginPage />} />
+          <Route path="/contacts" element={<ContactsPage />} />
           <Route path="*" element={<HomePage />} />
         </Route>
       </Routes>

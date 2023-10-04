@@ -1,6 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { register } from 'redux/auth/auth-operations';
-
+import { logIn } from 'redux/auth/auth-operations';
 import {
   FormWrap,
   FormEl,
@@ -9,12 +8,11 @@ import {
   Input,
   FocusInput,
   Button,
-  CiUserSVG,
   LockClosedSVG,
   OutlineMailSVG,
-} from './RegisterForm.styled';
+} from './LoginForm.styled';
 
-export const RegisterForm = () => {
+export const LogInForm = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = e => {
@@ -24,7 +22,7 @@ export const RegisterForm = () => {
     // Викликаємо дію  register з параметрами name,
     // email та password, які отримуємо зі значень полів форми
     dispatch(
-      register({
+      logIn({
         name: form.name.value,
         email: form.email.value,
         password: form.password.value,
@@ -36,20 +34,7 @@ export const RegisterForm = () => {
   return (
     <FormWrap>
       <FormEl onSubmit={handleSubmit} autoComplete="off">
-        <FormTitleLogIn>Sign up</FormTitleLogIn>
-        <InputWrap>
-          <CiUserSVG />
-          <Input
-            type="text"
-            name="name"
-            placeholder="Username"
-            pattern="^[^\d]+$"
-            title="Ім'я має містити лише літери, апострофи, дефіси та відступи"
-            required
-          />
-          <FocusInput></FocusInput>
-        </InputWrap>
-
+        <FormTitleLogIn>Log In</FormTitleLogIn>
         <InputWrap>
           <OutlineMailSVG />
           <Input
@@ -75,7 +60,7 @@ export const RegisterForm = () => {
           />
           <FocusInput></FocusInput>
         </InputWrap>
-        <Button type="submit">Register</Button>
+        <Button type="submit">Log In</Button>
       </FormEl>
     </FormWrap>
   );

@@ -1,18 +1,13 @@
 import { Outlet } from 'react-router-dom';
 import { Suspense } from 'react';
-import { Container, Header, Link } from './SharedLayout.styled';
+import { AppBar } from '../AppBar/AppBar';
+import { Container } from './SharedLayout.styled';
 
 export const SharedLayout = () => {
   return (
     <Container>
-      <Header>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/register">Register</Link>
-          <Link to="/logIn">Log In</Link>
-        </nav>
-      </Header>
-      <Suspense>
+      <AppBar />
+      <Suspense fallback={null}>
         <Outlet />
       </Suspense>
     </Container>
