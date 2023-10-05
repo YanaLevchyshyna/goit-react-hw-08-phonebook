@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[75],{6075:function(t,e,n){n.r(e),n.d(e,{default:function(){return c}});var r=n(184),i={title:{marginTop:100,fontWeight:500,fontSize:48,textAlign:"center"}};function c(){return(0,r.jsx)("main",{children:(0,r.jsx)("h1",{style:i.title,children:"Create your own contact list"})})}}}]);
+//# sourceMappingURL=75.2d964132.chunk.js.map
