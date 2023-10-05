@@ -6,6 +6,6 @@ export const Header = styled.header`
   justify-content: space-around;
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: #032541;
-  color: #e9eef2;
+  background-color: transparent;
+  color: #555;
 `;

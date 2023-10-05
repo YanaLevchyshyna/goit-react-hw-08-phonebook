@@ -56,7 +56,7 @@ export const RegisterForm = () => {
             type="text"
             name="email"
             placeholder="Email"
-            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
             title="Будь ласка, введіть дійсну адресу електронної пошти"
             required
           />
@@ -69,7 +69,7 @@ export const RegisterForm = () => {
             type="password"
             name="password"
             placeholder="Password"
-            pattern="^[a-zA-Z0-9!@#$%^&*()-_=+`~[\]{}|:<>/?]+$"
+            pattern="^[a-zA-Z0-9!@#\\$%^&*()\\-_=+~[\\]{}|:<>/?]+$"
             title="Пароль повинен містити тільки латинські літери (як великі, так і малі), цифри та інші символи"
             required
           />

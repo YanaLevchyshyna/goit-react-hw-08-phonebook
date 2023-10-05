@@ -6,7 +6,7 @@ export const ContactsListBtn = styled.button`
   background-color: transparent;
 
   & > svg {
-    fill: #a0a8ba;
+    fill: #555;
 
     :hover {
       fill: #67686b;

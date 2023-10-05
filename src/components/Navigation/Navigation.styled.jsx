@@ -18,7 +18,7 @@ export const Link = styled(NavLink)`
     bottom: 0.06em;
     height: 0.2em;
     width: 100%;
-    background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+    background: linear-gradient(110deg, #7579ff, #b224ef);
     z-index: -1;
     transition: height 0.25s cubic-bezier(0.6, 0, 0.4, 1);
   }

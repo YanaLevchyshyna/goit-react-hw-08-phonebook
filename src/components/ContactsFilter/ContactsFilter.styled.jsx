@@ -13,7 +13,7 @@ export const LabelSearch = styled.label`
   font-weight: 700;
   cursor: pointer;
   font-size: 16px;
-  color: ${p => p.theme.colors.primary};
+  color: ${p => p.theme.colors.text};
 `;
 
 export const InputSearch = styled.input`
