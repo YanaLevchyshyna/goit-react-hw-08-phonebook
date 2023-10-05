@@ -10,7 +10,7 @@ const styles = {
 export default function Home() {
   return (
     <main>
-      <h1 style={styles.title}>Create your own contacts list</h1>
+      <h1 style={styles.title}>Create your own contact list</h1>
     </main>
   );
 }
