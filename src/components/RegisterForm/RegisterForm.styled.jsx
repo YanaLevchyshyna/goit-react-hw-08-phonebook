@@ -11,6 +11,7 @@ export const FormWrap = styled.div`
   padding: 55px 35px;
   background: #9152f8;
   background-image: linear-gradient(to bottom, #7579ff, #b224ef);
+  opacity: 0.8;
 `;
 
 export const FormTitleLogIn = styled.span`

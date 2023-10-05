@@ -5,7 +5,7 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h1`
-  color: ${p => p.theme.colors.primary};
+  color: ${p => p.theme.colors.text};
   margin: 0;
   text-align: center;
 `;
